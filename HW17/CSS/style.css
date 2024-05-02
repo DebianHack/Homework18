@@ -1,0 +1,66 @@
+body{
+	background: green ;
+}
+
+
+
+/*index.html class="container"*/
+.container { 
+	color:blue;
+}
+/*index.html class="goal"*/
+.goal {
+	color:darkred;
+}
+/*index.html class="education"*/
+.education h2{
+	color:red;
+
+}
+.education p{
+	font-size:20px;
+}
+.education li{
+	padding:10px;
+}
+/*index.html class="Professional_Skills"*/
+.Professional_Skills li
+{
+	margin: 5px;
+	padding:5px;
+	font-size:20px;
+	color: green;
+	font-family: Arial;
+}
+.Professional_Skills big, small{
+	font-family: Times New Roman;
+	font-size:20px;
+}
+/*index.html class="Personal_qualities"*/
+.Personal_qualities h6{
+	font-family: cursive;
+	font-size:30px;
+}
+/*index.html id="Joke_Homework"*/
+#Joke_Homework h6{
+	font-size:20px;
+	color: blue;
+}
+
+/*gallery.html class="container2"*/
+.container2 { 
+	margin: 5px 10px 10px 5px;
+	padding: 5px;
+}
+
+#Profile, th, td {
+	border: 1px solid black;
+	text-align:center;
+	padding:10px;
+}
+
+}
+.contacts2 h1 {
+  font-size:10px;
+  color:blue;
+}

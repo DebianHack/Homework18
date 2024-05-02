@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacts</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body>
+	<nav>
+        <ul>
+
+            <li><a href="../index.html">Homepage</a></li>
+            <li><a href="gallery.html">Galery</a></li>   
+            <li>Contacts</li>
+        </ul>
+    </nav>
+
+	<section>
+        <div class="contacts2">
+            <h1> <b>Информация</b> </h1>
+            <ul>
+                <li> <b>Моб.телефон: </b> 0950437626</li>
+                <li> <b>E-mail:</b>  diving960@gmail.com</li>
+                <li> <b>Адрес:</b>  г. Днепр</li>
+                <li> <b>Telegram:</b>  DebianHack</li>
+            </ul>
+        </div>
+    </section>
+
+         <div>
+            <table id="Profile">
+            <caption><b>Информация</b></caption>
+               
+            <thead>
+                <tr>
+                    <th>Моб.телефон</th>
+                    <th>E-mail</th>
+                    <th>Адрес</th>
+                    <th>Telegram</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>0950437626</td>
+                    <td>diving960@gmail.com</td>
+                    <td>г. Днепр</td>
+                    <td>DebianHack</td>
+                </tr> 
+
+            </table>
+            
+        </div>
+
+        <h2>User Registration</h2>
+
+        <form method="POST">
+
+            <p>First name: <input type="text" name="first_name" placeholder="John" required minlength="2" maxlength="5"> </p>
+            <p>Last name: <input type="text" name="last_name" placeholder="Doe"></p>
+            <p>Email: <input type="email" name="email" placeholder="example email" required></p>
+            <p>Gender:</p>
+            <p>male: <input type="radio" name="gender" value="male"></p>
+            <p>female: <input type="radio" name="gender" value="female"></p>
+            <p>other: <input type="radio" name="gender" value="other"></p>
+            <p>Expected salary: <input type="number" name="salary"></p>
+            <p>Phone number <input type="tel" name="phone number" pattern="{3}{1}{8}{1}{0}{1}{0-9}{9}" placeholder="format like: 380xxxxxxxxx"></p>
+            <p>Date of birth: <input type="date" name="date of birth" min="1971-01-01" max="1990-01-01"></p>
+            <p>Password: <input type="password" name="password" required minlength="6"></p>
+            <p>Repeat Password: <input type="password" name="repeat_password" required></p>
+            <p>Accept user guide: <input type="checkbox" name="user_guide" required></p>
+            <p>Accept email sending: <input type="checkbox" name="email_sending" checked></p>
+
+            <textarea name="more_info"></textarea><br>
+
+            <input type="reset">
+            <input type="submit">
+
+
+
+        </form>
+
+  
+
+
+</body>
+</html>
